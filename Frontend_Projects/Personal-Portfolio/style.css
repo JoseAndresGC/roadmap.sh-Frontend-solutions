@@ -1,0 +1,529 @@
+* {
+    font-family: 'comic sans ms', sans-serif;
+    margin: 0;
+    text-decoration: none;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    height: 10%; /* Aprox 100px */
+    padding: 0px 5%; /* Aprox 50px */
+}
+
+.navegation_bar,
+.nav_links {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    bottom: 1.5vh; /* Aprox 20px */
+    right: 2vh; /* Aprox 20px */
+}
+
+.nav_link {
+    margin: 0 1vh; /* Aprox 10px */
+}
+
+.nav_link:last-child {
+    margin-left: 0 ;
+}
+
+.nav_linklink {
+    text-decoration: none;
+    color: black;
+}
+
+.title_container {
+    margin-bottom: 1%; /* Aprox 10px */
+    border-bottom: black solid 4%; /* Aprox 4px */
+}
+
+.titleFD {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.4vh; /* Aprox 30px */
+    padding-top: 5%;
+}
+
+.subtitleFD {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh; /* Aprox 13px */
+    color: grey;
+    margin-bottom: 9%; /* Aprox 90px */
+}
+
+.projects_title {
+    justify-content: left;
+    margin-bottom: 1vh; /* Aprox 10px */
+    padding-left: 5%;
+    padding-top: 4%;
+}
+
+.mid_container {
+    outline: 0.3vh solid black; /* Aprox 3px */
+    margin: 0px 2%; /* Aprox 20px */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.mid_containerItems1   {
+    border-right: 0.2vh black solid; /* Aprox 2px */
+    height: 100%; /* no quitar propiedad porque sino el border no se aplica debidamente*/
+}
+
+.projects_list {
+    list-style: none;
+    padding: 0px;
+}
+
+.individual_project {
+    border-bottom: solid black 0.2vh; /* Aprox 2px */
+    padding-bottom: 2.5%; /* Aprox 10px */
+    padding-top: 2.5%; /* Aprox 10px */
+    padding-left: 5%;
+}
+
+.work_expTitle {
+    /* justify-content: left; */
+    /* margin-bottom: 1vh; */
+    padding-left: 5%;
+    padding-top: 4%;
+}
+
+.mid_containerItems2_content {
+    padding-left: 4%;
+    /* padding-top: 4%; */
+    padding-bottom: 4%;
+}
+
+.mid_containerItems3 {
+    padding-top: 4%;
+    border-top: solid black 0.2vh; /* Aprox 2px */
+    padding-left: 4%;
+}
+
+.mid_containerItems4 {
+    border-left: solid black 0.2vh; /* Aprox 2px */
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-bottom: 6%;
+}
+
+.education_ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.coursesTook_items {
+    list-style-type: "- " ;
+    padding-left: 2.5%; /* Aprox 10px */
+}
+
+.review_Title {
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.review_item {
+    display: flex;
+    justify-content: center;
+    border: 0.3vh black solid; /* Aprox 3px */
+    border-radius: 2em;
+    padding: 3%; /* Aprox 10px */
+    margin: 3%; /* Aprox 10px */
+}
+
+span {
+    color: grey;
+}
+
+.lower_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0px 3%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 15% ; /* Aprox 150px */
+    font-weight: bold;
+}
+
+/* Projects css */
+
+.mainProjects_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 3%;
+    align-items: center;
+}
+
+.html_logo, .calculator_icon,
+.quiz_icon, .countdownTimer_icon,
+.productUpcomingPage_icon {
+    width: 22vh; /* Aprox 220px */
+    height: 22vh; /* Aprox 220px */
+    padding: 2vh; /* Aprox 10px */
+    object-fit: contain;
+}
+
+.HTMLOnlyPortfolio_container, .quizzApp_container,
+.productUpcomingPage_container {
+    background-color: rgb(189, 189, 189);
+    border: solid black 0.2vh; /* Aprox 2px */
+    border-radius: 2em;
+    padding: 1.5vh; /* Aprox 15px */
+    margin: 1vh; /* Aprox 10px */
+    height: 90%;
+    width: 90%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.calculator_container, .countdownTimer_container {
+    background-color: rgb(228, 228, 228);
+    border: solid black 0.2vh; /* Aprox 2px */
+    border-radius: 2em;
+    padding: 1.5vh; /* Aprox 15px */
+    margin: 1vh; /* Aprox 10px */
+    height: 90%;
+    width: 90%;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Articles */
+
+.title1, .title2, .title3 {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh; /* Aprox 25px */
+    padding: 2.1%; /* Aprox 21px */
+    text-decoration: none;
+    width: 100%;
+}
+
+.articles_Ul_list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px 5%;
+}
+
+/* Contact */
+
+.form_container {
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    padding: 2.5vh; /* Aprox 25px */
+}
+
+.form_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5vh; /* Aprox 15px */
+}
+
+.email_input, .name_input {
+    font-size: 2vh; /* Aprox 20px */
+    height: 4%; /* Aprox 40px */
+    padding: 1%; /* Aprox 10px */
+    margin-bottom: 1%; /* Aprox 10px */
+    border-radius: 0.5%; /* Aprox 5px */
+    border: 1vh solid #ffffff; /* Aprox 1px */
+}
+
+textarea {
+    border: 1vh solid #ffffff; /* Aprox 1px */
+    border-radius: 0.5vh; /* Aprox 5px */
+    width: 56vh; /* Aprox 560px */
+    height: 10.7vh; /* Aprox 107px */
+    padding: 1vh; /* Aprox 10px */
+    resize: none;
+}
+
+.submitButton {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border-radius: 0.5%; /* Aprox 5px */
+    border: none;
+    text-align: center;
+    font-size: 1.6vh; /* Aprox 16px */
+    margin-top: 1.8%; /* Aprox 18px */
+    width: 12.4vh; /* Aprox 124px */
+    height: 3.9vh; /* Aprox 39px */
+}
+
+/* Medias Queries for smartphones */
+
+/* small */
+
+@media (min-width: 0px) and (max-width: 426px) {
+
+    /* Index */
+    
+    .header_container {
+        flex-direction: column;
+        padding: 1.5vh; /* Aprox 10px */
+        font-size: 1vh;
+    }
+
+    .titleFD {
+        font-size: 2.5vh;
+    }
+
+    .subtitleFD {
+        font-size: 1.5vh; /* Aprox 15px */
+    }
+
+    .navegation_bar {
+        justify-content: center;
+        top: 2vh; /* Aprox 20px */
+        right: 0vh; /* 0px */
+        font-size: 2.1vh; /* Aprox 20px */
+    }
+
+    .mid_container {
+        grid-template-columns: 1fr;
+    }
+
+    .mid_containerItems1 {
+        text-align: center;
+    }
+    
+    .projects_list {
+        background-color: rgb(209, 209, 209);
+        border-top: solid black 0.2vh; /* Aprox 2px */
+    }
+
+    .work_expTitle {
+        text-align: center;
+        border-bottom: solid black 0.2vh; /* Aprox 2px */
+        padding-bottom: 1.5vh; /* Aprox 15px */
+        padding-top: 1.5vh; /* Aprox 15px */
+        background-color: rgb(255, 255, 255);
+    }
+
+    .mid_containerItems2{
+        background-color: rgb(209, 209, 209);
+    }
+
+    .mid_containerItems3 {
+        background-color: rgb(209, 209, 209);
+        border-bottom: solid black 0.2vh; /* Aprox 2px */
+        padding-bottom: 2vh; /* Aprox 20px */
+    }
+
+    .education_Title {
+        text-align: center;
+    }
+
+    .review_Title {
+        padding-left: 3vh; /* Aprox 30px */
+        padding-top: 3vh; /* Aprox 30px */
+        padding-bottom: 1vh; /* Aprox 10px */
+    }
+
+    .lower_container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Projects */
+
+    .mainProjects_container {
+        grid-template-columns: 1fr;
+        padding-top: 3vh;
+        margin: 0;
+    }
+
+    .HTMLOnlyPortfolio_container, .quizzApp_container,
+    .productUpcomingPage_container, .calculator_container,
+    .countdownTimer_container {
+        padding: 3vh;
+        /* margin: 0vh 0vh 1vh 0vh; */
+        margin: 1vh auto;
+        max-width: 80%;
+    }
+
+    /* Articles */
+
+    .articles_Ul_list {
+        text-align: center;
+    }
+
+    .title1, .title2, .title3 {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    /* Contact */
+
+    .form_container {
+        margin-top: 5vh;
+    }
+
+    .form_section {
+        width: 90%;
+        padding: 2vh;
+    }
+
+    .email_input, .name_input {
+        font-size: 1.8vh;
+        padding: 1vh;
+    }
+
+    textarea {
+        width: 90%;
+        height: 20vh; /* Aprox 200px */
+    }
+
+}
+
+/* small to mid tablets adjustments */
+
+@media (min-width: 426px) and (max-width: 599px) {
+
+    /* Index */
+
+    .header_container {
+        flex-direction: column;
+        padding: 1.5vh; /* Aprox 10px */
+    }
+
+    .titleFD {
+        font-size: 4vh;
+    }
+
+    .navegation_bar {
+        justify-content: center;
+        top: 2vh; /* Aprox 20px */
+        right: 0vh; /* 0px */
+        font-size: 1.6vh; /* Aprox 20px */
+    }
+
+    .mid_container {
+        grid-template-columns: 1fr;
+    }
+
+    .mid_containerItems1 {
+        text-align: center;
+    }
+
+    .projects_list {
+        background-color: rgb(209, 209, 209);
+        border-top: solid black 0.2vh; /* Aprox 2px */
+    }
+
+    .work_expTitle {
+        text-align: center;
+        border-bottom: solid black 0.2vh; /* Aprox 2px */
+        padding-bottom: 1.5vh; /* Aprox 15px */
+        padding-top: 1.5vh; /* Aprox 15px */
+        background-color: rgb(255, 255, 255);
+    }
+
+    .mid_containerItems2{
+        background-color: rgb(209, 209, 209);
+    }
+
+    .mid_containerItems3 {
+        background-color: rgb(209, 209, 209);
+        border-bottom: solid black 0.2vh; /* Aprox 2px */
+        padding-bottom: 2vh; /* Aprox 20px */
+    }
+
+    .education_Title {
+        text-align: center;
+    }
+
+    .mid_containerItems4 {
+        padding-right: 1vh; /* Aprox 10px */
+    }
+
+    .review_Title {
+        padding-left: 3vh; /* Aprox 30px */
+        padding-top: 3vh; /* Aprox 30px */
+        padding-bottom: 2vh; /* Aprox 10px */
+    }
+
+    .review_item {
+        padding: 1.5vh;
+    }
+
+    /* Projects */
+
+    .mainProjects_container {
+        grid-template-columns: 1fr;
+        padding-top: 3vh;
+        /* margin: 0vh; */
+    }
+
+    .HTMLOnlyPortfolio_container, .quizzApp_container,
+    .productUpcomingPage_container, .calculator_container,
+    .countdownTimer_container {
+        padding: 3vh;
+        margin: 1vh auto;
+    }
+
+    /* Articles */
+
+    .articles_Ul_list {
+        text-align: center;
+    }
+
+    .title1, .title2, .title3 {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+        /* Contact */
+
+        .form_container {
+            margin-top: 5vh;
+        }
+    
+        .form_section {
+            width: 90%;
+            padding: 2vh;
+        }
+    
+        .email_input, .name_input {
+            font-size: 1.8vh;
+            padding: 1vh;
+        }
+    
+        textarea {
+            width: 90%;
+            height: 20vh; /* Aprox 200px */
+        }
+}
+
+@media (min-width: 600px) and (max-width: 1024px)  {
+
+    /* Projects */
+
+    .mainProjects_container {
+        grid-template-columns: 1fr;
+        padding-top: 3vh;
+        /* margin: 0vh; */
+    }
+
+    .HTMLOnlyPortfolio_container, .quizzApp_container,
+    .productUpcomingPage_container, .calculator_container,
+    .countdownTimer_container {
+        padding: 3vh;
+        margin: 1vh auto;
+    }
+}
